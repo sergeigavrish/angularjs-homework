@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Angular.js homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body ng-app="mainApp">
+  <container ng-controller="mainCtrl as parent">
+    <my-button ng-click="parent.first()"></my-button>
+    <my-button ng-click="parent.second()"></my-button>
+    <my-button ng-click="parent.third()"></my-button>
+    <my-button ng-click="parent.fourth()"></my-button>
+  </container>  
+</body>
+</html>
